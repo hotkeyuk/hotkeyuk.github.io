@@ -29,10 +29,27 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-.panic{
+.panic {
     background-color:red;
     color: white;
     font-style: italic;
     font-weight: 900;
-    padding-left: 50%px
+    padding: 10px;
+    border-color: blue;
+    border-style: dashed;
+    border-width: 10px;
+    border-radius: 1rem;
+    ;
+}
+.ok {
+    background-color:blue;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    padding: 10px;
+    border-color: red;
+    border-style: dashed;
+    border-width: 10px;
+    border-radius: 1rem;
+    ;
 }
