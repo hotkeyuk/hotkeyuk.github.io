@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 body {
     background-color:white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -5,8 +8,9 @@ body {
 header {
     background-color:red;
     color: white;
+    font-family: 'Anton';
     font-size: 200%;
-    font-weight: 900;
+    font-weight: 500;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
