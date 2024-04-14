@@ -17,6 +17,8 @@ header {
 }
 footer {
     font-size: 50%;
+    font-family: 'M PLUS 1 Code', 'Courier New', Courier, monospace;
+    text-align: right;
 }
 h1 {
     color: blue;
