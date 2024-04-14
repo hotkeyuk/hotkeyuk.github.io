@@ -44,7 +44,14 @@
             <hr>
             More on the way  &copy Hotkey
             <script>
-                document.write(document.lastModified);
+                let now = new Date();
+                let year = now.getFullYear();
+                let docdate = new Date();
+                docdate = document.lastModified;
+                document.write("(current year "+year+")");
+        
+                document.write(" Docdate = "+docdate);
+                
             </script>
         </footer>
     </body>
