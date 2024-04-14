@@ -1,10 +1,8 @@
-<script>
-    let now = new Date();
-    let year = now.getFullYear();
-    const docdate = new Date(document.lastModified);
-    //docdate = document.lastModified;
-    document.write("&copy "+ year +" Hotkey");
-    //let docdatestr = docdate.toLocaleDateString(en);
-    document.write( " (Last change "+ docdate.toLocaleString() + ")" );
-    
-</script>
+// Text for page footer
+const now = new Date();
+const docdate = new Date(document.lastModified);
+
+document.write(
+    "&copy "+ now.getFullYear() +" Hotkey"
+    + " (Last change "+ docdate.toLocaleString() + ")"
+);
