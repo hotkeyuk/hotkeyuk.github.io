@@ -26,11 +26,18 @@
                 <li><a href="index.html">Back Home</a></li>
             </ul>
  
+            <p>Host name: <a id="hostname"></a></p>
+
         </main>
 
         <footer>
             <hr>
             <p><script src="scripts/footer.js"></script></p>
         </footer>
+        
+        <script>
+            document.getElementById("hostname").innerHTML = document.location.host ;
+        </script>
+    
     </body>
 </html>
