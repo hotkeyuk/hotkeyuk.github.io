@@ -5,6 +5,9 @@
 
     document.write(
         "&copy "+ now.getFullYear() +" Hotkey"
-        + " (Last change "+ docdate.toLocaleString() + ")"
+        + " ( " 
+        + document.location.pathname 
+        + " last change "+ docdate.toLocaleString() 
+        + ")"
     );
 }
