@@ -26,6 +26,9 @@ h1 {
 p {
     padding-left: 30px;
 }
+pre {
+    font-family: 'M PLUS 1 Code', 'Courier New', Courier, monospace;
+}
 .center {
     display: block;
     margin-left: auto;
