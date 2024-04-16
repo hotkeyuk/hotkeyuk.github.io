@@ -34,6 +34,14 @@ pre {
     margin-left: auto;
     margin-right: auto;
 }
+img.float-left {
+    float:left;
+    padding: 12px;
+}
+img.float-right {
+    float:right;
+    padding: 12px;
+}
 .panic {
     background-color:red;
     color: white;
