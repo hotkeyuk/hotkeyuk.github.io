@@ -1,0 +1,3 @@
+# We are highly evolved, extremely intelligent and don't like sharing our content!
+User-agent: * # match all bots
+Disallow: / # keep them out
