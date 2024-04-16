@@ -26,6 +26,11 @@ h1 {
 p {
     padding-left: 30px;
 }
+p.just {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 pre {
     font-family: 'M PLUS 1 Code', 'Courier New', Courier, monospace;
 }
