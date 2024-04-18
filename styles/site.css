@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
+* {
+    box-sizing: border-box;
+  }
+  
 body {
+    
     background-color:white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -30,7 +35,13 @@ p.just {
     text-align: justify;
     text-justify: inter-word;
 }
-
+p#y-test {
+    color: yellow;
+    background-color: darkgray;
+    padding: 1rem;
+    margin: 1rem;
+    width: 50%;
+}
 pre {
     font-family: 'M PLUS 1 Code', 'Courier New', Courier, monospace;
 }
