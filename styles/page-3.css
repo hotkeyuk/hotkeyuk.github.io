@@ -1,0 +1,19 @@
+div#header-container {
+    display: flex;
+    align-items:flex-end;
+  }
+  div#header-left {
+    flex: 25%;
+    justify-items: left;
+  }
+  div#header-middle {
+    flex: 50%;
+    justify-items: center;
+    color: blue;
+  }
+  div#header-right {
+    flex: content;
+    justify-items:left;
+    color: gold;
+  }
+  
