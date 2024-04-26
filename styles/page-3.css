@@ -9,7 +9,7 @@ div#header-container {
   }
   div#header-middle {
     flex: 50%;
-    text-align: center;
+    text-align: left;
     max-width: 1024px;
   }
   div#header-right {
