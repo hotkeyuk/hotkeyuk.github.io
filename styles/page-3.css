@@ -1,19 +1,21 @@
 div#header-container {
     display: flex;
-    align-items:flex-end;
+    justify-content:space-between;
   }
   div#header-left {
-    flex: 25%;
+    flex: auto;
     justify-items: left;
+    background-color: cyan;
   }
   div#header-middle {
     flex: 50%;
-    justify-items: center;
-    color: blue;
+    text-align: center;
+    max-width: 1024px;
   }
   div#header-right {
-    flex: content;
-    justify-items:left;
+    flex: auto;
+    text-align:right;
+    background-color: forestgreen;
     color: gold;
   }
   
