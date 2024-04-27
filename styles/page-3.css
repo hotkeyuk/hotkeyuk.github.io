@@ -1,18 +1,18 @@
-div#header-container {
+header {
     display: flex;
     justify-content:space-between;
   }
-  div#header-left {
+  header > div.left {
     flex: auto;
     justify-items: left;
     background-color: cyan;
   }
-  div#header-middle {
+  header > div.middle {
     flex: 50%;
     text-align: left;
     max-width: 1024px;
   }
-  div#header-right {
+  header > div.right {
     flex: auto;
     text-align:right;
     background-color: forestgreen;
