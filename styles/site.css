@@ -19,12 +19,37 @@ header {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
+    display: flex;
+    align-items: center ;
+
 }
-footer {
+header > div.left {
+    flex: 1 1 auto;
+    background-color: cyan;
+  }
+  header > div.middle {
+    flex: 0 1 900px;
+    text-align: left;
+
+  }
+  header > div.right {
+    flex: 1 0 auto;
+    text-align:right;
+    background-color: forestgreen;
+    color: gold;
+  }
+  main {
+    margin: auto;
+    max-width: 900px;
+    min-width: 400px;
+  }
+
+  footer {
     font-size: 50%;
     font-family: 'M PLUS 1 Code', 'Courier New', Courier, monospace;
     text-align: right;
 }
+
 h1 {
     color: blue;
 }
