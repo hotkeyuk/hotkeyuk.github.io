@@ -1,21 +1,26 @@
 header {
     display: flex;
-    justify-content:space-between;
+
+    align-items: center ;
+
   }
   header > div.left {
-    flex: auto;
-    justify-items: left;
+    flex: 0 1 auto;
     background-color: cyan;
   }
   header > div.middle {
-    flex: 50%;
+    flex: 0 1 900px;
     text-align: left;
-    max-width: 1024px;
+
   }
   header > div.right {
-    flex: auto;
+    flex: 1 0 auto;
     text-align:right;
     background-color: forestgreen;
     color: gold;
   }
-  
+  main {
+    margin: 1 auto;
+    max-width: 900px;
+    min-width: 400px;
+  }
