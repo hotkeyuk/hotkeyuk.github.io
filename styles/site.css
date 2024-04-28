@@ -101,9 +101,18 @@ ol {
     font-weight: bolder;
     font-style: italic;
 }
-ol>li ::after {
+ol li a::before {
+    content: "(Link) ";
+}
+
+ul li::before {
+    content: "(ul) ";
+}
+
+ol>li>a::after {
     content: " > > >" ;
 }
+
 a {
     text-decoration: none;
     padding: 0.5rem;
