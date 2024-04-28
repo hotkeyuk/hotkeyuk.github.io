@@ -92,7 +92,18 @@ ul>li>a:hover , ul>li>a:active {
 ul>li>a::after  {
     content: " ->>>";
 }
-  
+
+ol {
+    color: green;
+    font-weight: bolder;
+    font-style: italic;
+}
+a {
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+    color: inherit;
+}
 
 p#y-test {
     color: yellow;
