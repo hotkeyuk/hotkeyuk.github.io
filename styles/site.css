@@ -70,26 +70,26 @@ ul {
     padding: 0px;
     width: max-content;
 }
-ul li {
+ul>li {
     border-top: 1rem solid #fff ;
     font-size: 10pt;
     font-weight: bold;
     text-align: left;
 }
-ul li a {
+ul>li>a {
     text-decoration: none;
     padding: 0.5rem;
     display: block;
 }
-ul li a:link , li a:visited {
+ul>li>a:link , ul>li>a:visited {
     background-color: gray;
     color: white;
 }
-ul li a:hover , li a:active {
+ul>li>a:hover , ul>li>a:active {
     background-color: black;
     color: white;
 }
-ul li a::after  {
+ul>li>a::after  {
     content: " ->>>";
 }
   
