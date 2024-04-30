@@ -1,10 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
 
 * {
     box-sizing: border-box;
 }
-  
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
 body {
     --mainColor: red ;
     --altColor: white ;
@@ -75,22 +86,25 @@ ul.p1>li {
     border-top: 1rem solid #fff ;
     font-size: 10pt;
     font-weight: bold;
-    text-align: left;
-    background-color: orange;
+    text-align: center;
     color: black;
 }
 ul.p1>li>a {
     text-decoration: none;
     padding: 0.5rem;
     display: block;
+    border-width: 0.5rem;
+    border-radius: 10%;
 }
 ul.p1>li>a:link , ul.p1>li>a:visited {
     background-color: gray;
     color: white;
+    border-style:outset;
 }
 ul.p1>li>a:hover , ul.p1>li>a:active {
-    background-color: black;
-    color: white;
+    background-color: blue;
+    color: yellow;
+    border-style: inset;
 }
 ul.p1>li>a::after  {
     content: " - >>>";
